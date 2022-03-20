@@ -9,7 +9,7 @@
   <body>
     
       <div id = "weather">
-          <span></span>
+          <span>Now Loading Weather info...</span>
           <span></span>
       </div>
 
@@ -28,12 +28,14 @@
     <h2 id = "clock"></h2>
     
     <form id = "toDoForm">
-      <input required type="text" placeholder="Write a To-Do and press Enter" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write a To-Do and press Enter'"></input>
+      <input id="toDoInput" required type="text" placeholder="Write a To-Do and press Enter" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write a To-Do and press Enter'"></input>
     </form>
+
     <ul id = "toDoList"></ul>
-    
+
     <div id = "quotes">
       <span></span>
+      <br>
       <span></span>
     </div>
 
