@@ -1,0 +1,73 @@
+img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 200px;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+li {
+  list-style: none;
+  padding-left: 0px;
+}
+
+button {
+  border: none;
+  margin-left: 10px;
+}
+
+#loginInput {
+  font-size: 28px;
+  width: 300px;
+}
+#loginBtn {
+  width: 50px;
+}
+
+#weather {
+  text-align: left;
+}
+
+#greeting {
+  margin-bottom: 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+#clock {
+  margin-top: 0;
+  text-align: center;
+  font-size: 72px;
+}
+
+#toDoForm {
+}
+
+#toDoList {
+  border: 1px solid black;
+  height: 35vh;
+  overflow-y: scroll;
+}
+
+#quotes {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Clone Momentum</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+      <div id = "weather">
+          <span></span>
+          <span></span>
+      </div>
+
+    <form class = "hidden" id = "login-form">
+      <input 
+        id = "loginInput"
+        required
+        maxlength="15"
+        type="text" 
+        placeholder="What is your name?"
+        onfocus="this.placeholder = ''" 
+        onblur="this.placeholder = 'What is your name?'"/>
+      <input id="loginBtn" type="submit" value="Log In"/>
+    </form>
+    <h1 class = "hidden" id = "greeting"></h1>
+    <h2 id = "clock"></h2>
+    
+    <form id = "toDoForm">
+      <input required type="text" placeholder="Write a To-Do and press Enter" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write a To-Do and press Enter'"></input>
+    </form>
+    <ul id = "toDoList"></ul>
+    
+    <div id = "quotes">
+      <span></span>
+      <span></span>
+    </div>
+
+    
+    
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/push.js"></script>
+  </body>
+</html>
